@@ -89,3 +89,4 @@ func (c *Config) Validate() error {
 	return errs.Precondition(errs.ConfigInvalid, codeConfigValidationFailed, utils.Validate(c))
 }
 // proposal P6b
+// proposal P6b
