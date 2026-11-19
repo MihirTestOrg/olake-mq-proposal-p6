@@ -142,3 +142,4 @@ func (c *Config) Validate() error {
 
 	return errs.Precondition(errs.ConfigInvalid, codeConfigValidationFailed, utils.Validate(c))
 }
+// proposal P6a
